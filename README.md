@@ -2,11 +2,15 @@
 Inneholder koder jeg har gjort for øvinger og proskjekter i noen av fagene jeg har hatt. All koding jeg har gjort er ikke inkludert. 
 
 ## Nanotools
-Notebooks for behandling av data fra FIB, SEM og TEM.
-Lærer å bruke hyperspy pakken. Hadde faget i 3 klasse.
+Notebooks for behandling av data fra ulike elektron mikroskop som FIB, SEM og TEM.
+Lærer å bruke hyperspy pakken. Hadde faget i 3 klasse, høsten 2021.
 
 ## Bionano
-Beregner diffusjonskonstanter og partikkel radius på mikro- og nanopartikler. Hadde faget i 3 klasse.
+Beregnet radius og diffusjonskonstanter på nano- og mikropartikler høsten 2021.
+
+På mikropartiklene ble det brukt particle tracking i ImageJ fra en video tatt med lysmikroskop for å se hvor mye partiklene flytta på seg mellom bildene. Distansen partikklene hadde flytta på seg ble lagret som CSV filer. Deretter ble python brukt til å beregne diffusjonskonstantenene og radiusene for partiklene. Det ble så laget histogram for å presantere resultatene. Histogramer for diffusjonskonstant og radius for prøve A er vist her.
+
+Diffusjonskonstanten for nanopartiklene ble funnet ved hjelp av absorbsjonsforskjell i farge. Partiklene var blå og ble pumpet gjennom en mikrokanal sammen med vann. Differanse i fargeintensiteten fra start til slutt kan brukes til å estimere diffusjonskonstanten for partikklene. Bilde av curvefittingen til dataene våre er vist.
 
 ## Livssyklusanalyse
 Mine øvinger gjort i TEP4223 høsten 2023 i 5 klasse.
